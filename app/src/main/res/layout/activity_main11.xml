@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity11">
+
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="213dp"
+        android:layout_marginBottom="531dp"
+        android:text="Transnet LLC"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton45"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.374"
+        app:srcCompat="@drawable/license_code_image_button" />
+
+    <ImageButton
+        android:id="@+id/imageButton46"
+        android:layout_width="320dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginBottom="385dp"
+        android:onClick="openMain18"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/license_code_image_button" />
+
+    <ImageButton
+        android:id="@+id/imageButton47"
+        android:layout_width="51dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="336dp"
+        android:layout_marginBottom="216dp"
+        android:backgroundTint="#020202"
+        android:foregroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_help" />
+
+    <ImageButton
+        android:id="@+id/imageButton48"
+        android:layout_width="306dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="378dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="323dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/license_code_image_button" />
+
+    <ImageButton
+        android:id="@+id/imageButton49"
+        android:layout_width="44dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="378dp"
+        android:layout_marginEnd="346dp"
+        android:layout_marginBottom="336dp"
+        android:backgroundTint="#000000"
+        android:foregroundTint="#FFFDFD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+
+    <TextView
+        android:id="@+id/textView92"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="396dp"
+        android:layout_marginEnd="260dp"
+        android:layout_marginBottom="348dp"
+        android:text="@string/drivers_hired"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="327dp"
+        android:layout_marginEnd="342dp"
+        android:layout_marginBottom="392dp"
+        android:backgroundTint="#000000"
+        android:foregroundTint="#FAFAFA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/stat_notify_chat" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="158dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="500dp"
+        android:foreground="@drawable/profile_picture"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/profile_picture" />
+
+    <ImageButton
+        android:id="@+id/imageButton51"
+        android:layout_width="309dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="495dp"
+        android:layout_marginBottom="210dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.676"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/license_code_image_button" />
+
+    <ImageButton
+        android:id="@+id/imageButton52"
+        android:layout_width="45dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="277dp"
+        android:layout_marginEnd="345dp"
+        android:layout_marginBottom="444dp"
+        android:backgroundTint="#000000"
+        android:foregroundTint="#FFF9F9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+
+    <TextView
+        android:id="@+id/textView93"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="463dp"
+        android:layout_marginEnd="261dp"
+        android:layout_marginBottom="278dp"
+        android:text="@string/help_and_support"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton53"
+        android:layout_width="348dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="609dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="103dp"
+        android:onClick="openMain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/license_code_image_button" />
+
+    <TextView
+        android:id="@+id/textView94"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="230dp"
+        android:text="@string/manage_account"
+        android:textColor="#FFFEFE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
+
+    <ImageButton
+        android:id="@+id/imageButton54"
+        android:layout_width="81dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="705dp"
+        android:layout_marginEnd="330dp"
+        android:layout_marginBottom="2dp"
+        android:foreground="@drawable/toolbar_home"
+        android:onClick="openMain6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/toolbar_home" />
+
+    <ImageButton
+        android:id="@+id/imageButton55"
+        android:layout_width="81dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="702dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="2dp"
+        android:foreground="@drawable/toolbar_messages"
+        android:onClick="openMain12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/toolbar_messages" />
+
+    <ImageButton
+        android:id="@+id/imageButton56"
+        android:layout_width="311dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="553dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="154dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/license_code_image_button" />
+
+    <TextView
+        android:id="@+id/textView96"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="512dp"
+        android:layout_marginEnd="173dp"
+        android:layout_marginBottom="232dp"
+        android:text="@string/contact_customer_service"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton57"
+        android:layout_width="77dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="702dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="3dp"
+        android:foreground="@drawable/toolbar_search"
+        android:onClick="openMain5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/toolbar_search" />
+
+    <ImageButton
+        android:id="@+id/imageButton58"
+        android:layout_width="78dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="337dp"
+        android:layout_marginTop="702dp"
+        android:layout_marginBottom="2dp"
+        android:foreground="@drawable/toolbar_profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/toolbar_profile" />
+
+    <TextView
+        android:id="@+id/textView97"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="274dp"
+        android:text="Job posts"
+        android:textColor="#FDFDFD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.458" />
+
+    <TextView
+        android:id="@+id/textView98"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="622dp"
+        android:layout_marginEnd="330dp"
+        android:layout_marginBottom="119dp"
+        android:text="Logout"
+        android:textColor="#FF0000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="567dp"
+        android:layout_marginEnd="279dp"
+        android:layout_marginBottom="177dp"
+        android:text="Settings"
+        android:textColor="#FFFEFE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="544dp"
+        android:layout_marginEnd="339dp"
+        android:layout_marginBottom="167dp"
+        android:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_manage" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="728dp"
+        android:text="Profile"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="12dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="705dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="44dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/new_notification" />
+</androidx.constraintlayout.widget.ConstraintLayout>
